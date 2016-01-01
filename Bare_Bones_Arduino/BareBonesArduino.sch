@@ -5972,26 +5972,26 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="TXO"/>
-<wire x1="38.1" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
-<label x="43.18" y="93.98" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="142.24" y1="99.06" x2="149.86" y2="99.06" width="0.1524" layer="91"/>
 <label x="147.32" y="99.06" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="TX" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="RXI"/>
 <wire x1="38.1" y1="91.44" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
 <label x="43.18" y="91.44" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="TX" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="142.24" y1="96.52" x2="149.86" y2="96.52" width="0.1524" layer="91"/>
 <label x="147.32" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="TXO"/>
+<wire x1="38.1" y1="93.98" x2="48.26" y2="93.98" width="0.1524" layer="91"/>
+<label x="43.18" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DTR" class="0">
